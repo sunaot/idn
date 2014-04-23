@@ -1,6 +1,6 @@
 == LibIDN Ruby Bindings
 
-Version 0.0.2
+Version 0.0.3
 
 Ruby Bindings for the GNU LibIDN library, an implementation of the
 Stringprep, Punycode and IDNA specifications defined by the IETF

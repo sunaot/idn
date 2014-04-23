@@ -32,7 +32,7 @@ rescue Exception
 end
 
 PKG_NAME = 'idn'
-PKG_VERSION = '0.0.2'
+PKG_VERSION = '0.0.3'
 
 PKG_AUTHOR = 'Erik Abele'
 PKG_EMAIL = 'erikabele@rubyforge.org'

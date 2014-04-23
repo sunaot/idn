@@ -1,3 +1,7 @@
+Changes with IDN 0.0.3 (2014-04-23)
+
+* Make modules compatible to Ruby >= 1.9. Does not work with Ruby < 1.9
+
 Changes with IDN 0.0.2 (2006-02-11)
 
 * Remove excessive xfree() if a call to stringprep_profile() returns an
