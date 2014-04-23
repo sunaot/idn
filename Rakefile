@@ -21,12 +21,12 @@
 
 require 'rake'
 require 'rake/testtask'
-require 'rake/rdoctask'
+require 'rdoc/task'
 require 'rake/contrib/sshpublisher'
 
 begin
   require 'rubygems'
-  require 'rake/gempackagetask'
+  require 'rubygems/package_task'
 rescue Exception
   nil
 end
@@ -171,7 +171,7 @@ if defined?(Gem)
                       '-N' << '-S' << '-w 2'
   end
 
-  Rake::GemPackageTask.new(spec) do |pkg|
+  Gem::PackageTask.new(spec) do |pkg|
     pkg.need_zip = true
     pkg.need_tar_gz = true
   end
